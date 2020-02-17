@@ -1,0 +1,17 @@
+{
+    "name": "alon/htdocs",
+    "authors": [
+        {
+            "name": "Emik123dsa",
+            "email": "pengrobinson@mail.ru"
+        }
+    ],
+    "require": {
+        "autoload": {
+            "psr-4": 
+            {
+                "Database\\": "/src"
+            }
+        }
+    }
+}
