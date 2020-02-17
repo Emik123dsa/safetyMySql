@@ -6,12 +6,12 @@
             "email": "pengrobinson@mail.ru"
         }
     ],
-    "require": {
-        "autoload": {
-            "psr-4": 
-            {
-                "Database\\": "/src"
-            }
+    "autoload": {
+        "psr-4": {
+            "Database\\": "src/"
+
         }
+    },
+    "require": {
     }
 }
