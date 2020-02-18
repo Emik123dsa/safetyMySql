@@ -70,8 +70,9 @@ class Database {
                     }
 
                     $this->statement->bindValue($key[0], $key[1], $type);
-
+                    
                 }
+                
             }
             $this->statement->execute();
         } catch (PDOException $e) {
